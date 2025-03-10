@@ -12,3 +12,7 @@ print("Esto soy yo en minusculas ", nombre.lower())
 #3.SLICE
 print("primeros 3 caracteres: ", nombre[:3])
 print("ultimos 4 caracteres: ", nombre[-4:])
+
+#REMPLAZAR PALABRAS EN UNA CADENA
+frase="me gusta java"
+print("cambio la palabra: ",frase.replace("java","python"))
