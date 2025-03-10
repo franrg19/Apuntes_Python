@@ -25,3 +25,8 @@ print("esto es: ", nueva_frase)
 #6.UNIR VARIAS PALABRAS EN UNA CADENA
 palabras =["hola","mundo","en","Python"]
 print("frase completa con join; "," ".join(palabras) )
+
+#7.SPLIT
+oracion="Python es divertido"
+palabritas = oracion.split()
+print("lista de palabras  ")
