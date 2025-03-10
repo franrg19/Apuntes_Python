@@ -13,11 +13,15 @@ print("Esto soy yo en minusculas ", nombre.lower())
 print("primeros 3 caracteres: ", nombre[:3])
 print("ultimos 4 caracteres: ", nombre[-4:])
 
-#REMPLAZAR PALABRAS EN UNA CADENA
+#4.REMPLAZAR PALABRAS EN UNA CADENA
 frase="me gusta java yuju"
 print("cambio la palabra: ",frase.replace("java","python"))
 
-#VERIFICAR SI UNA CADENA EXISTE
+#5.VERIFICAR SI UNA CADENA EXISTE
 print("python" in frase)
 nueva_frase="Python"
 print("esto es: ", nueva_frase)
+
+#6.UNIR VARIAS PALABRAS EN UNA CADENA
+palabras =["hola","mundo","en","Python"]
+print("frase completa con join; "," ".join(palabras) )
