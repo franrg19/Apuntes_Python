@@ -19,3 +19,5 @@ print("cambio la palabra: ",frase.replace("java","python"))
 
 #VERIFICAR SI UNA CADENA EXISTE
 print("python" in frase)
+nueva_frase="Python"
+print("esto es: ", nueva_frase)
