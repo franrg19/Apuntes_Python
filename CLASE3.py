@@ -14,5 +14,5 @@ print("primeros 3 caracteres: ", nombre[:3])
 print("ultimos 4 caracteres: ", nombre[-4:])
 
 #REMPLAZAR PALABRAS EN UNA CADENA
-frase="me gusta java"
+frase="me gusta java yuju"
 print("cambio la palabra: ",frase.replace("java","python"))
