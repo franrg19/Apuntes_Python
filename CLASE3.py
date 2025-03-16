@@ -61,3 +61,32 @@ print("Resto: ", 10%3)
 
 #14 GENERAR UN NUMERO ALEATORIO
 print("numero aleatorio entre 1 y 10: ",random.randint(1,10) )
+
+#15.CONVERTIR NUMEROS A CADENAS Y VICEVERSA
+numerajo = 300
+texto= str(numerajo)
+print("convertir a texto, soy: ",texto)
+cadena=200
+numerajo= int(cadena)
+print("convertido a numero soy: ", numerajo)
+
+#16.REDONDEAR HACIA ARRIBA
+print("redondeo hacia arruba del 3.6: ",math.ceil(3.6))
+print("redondeo hacia abajo del 3.2: ",math.floor(3.2))
+
+#17 CONVERTIR UNA LISTA EN UN CONJUNTO, ES DECIR ELIMINAR DUPLICADOS
+numeroides = [1,2,3,3,4,5,5]
+sin_duplicados = set(numeroides)
+print("La lista sin duplicados es:", sin_duplicados)
+
+#18.REPETIR UNA CADENA
+print("python !" *3 )
+
+#19.TIPO DE DATO
+dato = 3.14
+print("El tipo de variable de dato es: ", type(dato))
+
+#20. COMBINAR CADENAS Y VARIABLES EN UN PRINT
+name = "Fran"
+edad = "33"
+print(f"Hola, soy {name} y tengo {edad} años")
